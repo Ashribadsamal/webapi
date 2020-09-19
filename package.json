@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
+  "description": "about api",
  
    "main": "index.js",
   "dependencies": {
@@ -11,7 +11,7 @@
     "mongodb": "^3.6.2",
     "zone.js": "^0.11.1"
   },
-  "devDependencies": {},
+ 
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
