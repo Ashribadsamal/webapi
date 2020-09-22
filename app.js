@@ -4,7 +4,7 @@ const port=8900;
 const bodyParser = require('body-parser');
 const mongo=require('mongodb');
 const MongoClient=mongo.MongoClient;
-const mongoUrl="mongodb+srv://<username>:<password>@cluster0.znagi.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const mongoUrl="mongodb+srv://ashribad:<password>@cluster0.mcepq.mongodb.net/<dbname>?retryWrites=true&w=majority";
 var cors=require('cors');
 let db;
 app.use(cors());
