@@ -195,7 +195,7 @@ app.post('/placeorder',(req,res)=>{
 
 MongoClient.connect(mongoUrl,(err,client)=>{
     if (err) console.log(err)
-    db=client.db("zomato");
+    db=client.db("zomatoapi");
     app.listen(port,(err)=>{
         if (err) throw err;
         console.log(`server is running on ${port}`)
